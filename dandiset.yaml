@@ -2,16 +2,37 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001199
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 67375280
+  numberOfFiles: 24
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Gao, Huan (2024) Neural Pathways Modulation in the Anesthetized Rat Elicited
-  by Trials of Transcranial Focused Ultrasound Stimulation (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/001199/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectrodeGroup
+  - Units
+citation: Gao, Huan; He, Bin; Ramachandran, Sandhya; Yu, Kai (2024) Neural Pathways
+  Modulation in the Anesthetized Rat Elicited by Trials of Transcranial Focused Ultrasound
+  Stimulation (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001199/draft
 contributor:
 - affiliation: []
   email: huangao@andrew.cmu.edu
@@ -20,10 +41,45 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- includeInCitation: true
+  name: He, Bin
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Ramachandran, Sandhya
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Yu, Kai
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: false
+  name: Carnegie Mellon University
+  roleName:
+  - dcite:Affiliation
+  schemaKey: Organization
+- includeInCitation: false
+  name: NIH NS124564
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: NIH EB029354
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: NIH NS13106
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-09-30T20:56:27.377399+00:00'
 description: 'In these recordings, we recorded neuronal activities from cortical-thalamocortical
   (CTC) pathway, including the somatosensory cortex (S1) and posteromedial complex
-  (PoM) of the thalamus responded to different Pulse Repetition Frequencies (PRFs
+  (POm) of the thalamus responded to different Pulse Repetition Frequencies (PRFs
   ) or Pulse Durations (PDs) and Pressure Levels of transcranial ultrasound focused
   stimulation (tFUS) using a 128-element transducer to stimulate either at S1or PoM.  Recordings
   for S1 are taken using 64-channel Cambridge or Neuronexus electrodes and recordings
@@ -32,16 +88,22 @@ description: 'In these recordings, we recorded neuronal activities from cortical
   Duration (UD) and pressure level used in each recording is 67ms. The PRFs, PDs and
   pressure levels for each recording can be found in the identifier field. For example,
   in BH596_3000_200_67_10, the PRF is 3000Hz, PD is 200us and pressure level is 10V. '
+ethicsApproval: []
 id: DANDI:001199/draft
 identifier: DANDI:001199
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001199/versions/draft/assets/
 name: Neural Pathways Modulation in the Anesthetized Rat Elicited by Trials of Transcranial
   Focused Ultrasound Stimulation
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001199/draft
 version: draft
+wasGeneratedBy: []
