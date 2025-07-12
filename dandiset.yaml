@@ -20,8 +20,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 313364552
-  numberOfFiles: 225
+  numberOfBytes: 317011048
+  numberOfFiles: 229
   numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
@@ -31,9 +31,9 @@ assetsSummary:
   variableMeasured:
   - ElectrodeGroup
   - Units
-citation: Gao, Huan; He, Bin; Ramachandran, Sandhya; Yu, Kai (2024) Neural Pathways
+citation: Gao, Huan; He, Bin; Ramachandran, Sandhya; Yu, Kai (2025) Neural Pathways
   Modulation in the Anesthetized Rat Elicited by Trials of Transcranial Focused Ultrasound
-  Stimulation (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001199/draft
+  Stimulation (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001199/draft
 contributor:
 - affiliation: []
   email: huangao@andrew.cmu.edu
@@ -78,7 +78,8 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-09-30T20:56:27.377399+00:00'
-description: 'In these recordings, we recorded neuronal activities from cortical-thalamocortical
+datePublished: '2025-07-12T15:51:02.740523+00:00'
+description: In these recordings, we recorded neuronal activities from cortical-thalamocortical
   (CTC) pathway, including the somatosensory cortex (S1) and posteromedial complex
   (POm) of the thalamus responded to different Pulse Repetition Frequencies (PRFs
   ) or Pulse Durations (PDs) and Pressure Levels of transcranial ultrasound focused
@@ -88,23 +89,37 @@ description: 'In these recordings, we recorded neuronal activities from cortical
   is delivered every 2.5 seconds and each recording has 500 trials. The Ultrasound
   Duration (UD) and pressure level used in each recording is 67ms. The PRFs, PDs and
   pressure levels for each recording can be found in the identifier field. For example,
-  in BH596_3000_200_67_10, the PRF is 3000Hz, PD is 200us and pressure level is 10V. '
+  in BH596_3000_200_67_10, the PRF is 3000Hz, PD is 200us and pressure level is 10V.  Detailed
+  description about this dataset can be found in the following publication. Please
+  cite the paper if you would use a portion of the dataset. Gao, H., Ramachandran,
+  S., Yu, K., & He, B. (2025). Transcranial Focused Ultrasound Modulates Feedforward
+  and Feedback Cortico-Thalamo-Cortical Pathways by Selectively Activating Excitatory
+  Neurons. The Journal of Neuroscience, 45(23), e2218242025. https://doi.org/10.1523/JNEUROSCI.2218-24.2025
 ethicsApproval: []
 id: DANDI:001199/draft
 identifier: DANDI:001199
-keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001199/versions/draft/assets/
 name: Neural Pathways Modulation in the Anesthetized Rat Elicited by Trials of Transcranial
   Focused Ultrasound Stimulation
-protocol: []
+publishedBy:
+  endDate: '2025-07-12T15:51:02.740523+00:00'
+  id: urn:uuid:3ca0b819-c5eb-4f10-a247-2677fa2d9572
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-07-12T15:51:02.740523+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:8ae59a54-2f83-49ce-8df0-003c3be1e2f8
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-studyTarget: []
 url: https://dandiarchive.org/dandiset/001199/draft
 version: draft
 wasGeneratedBy: []
