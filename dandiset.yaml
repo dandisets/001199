@@ -31,9 +31,9 @@ assetsSummary:
   variableMeasured:
   - ElectrodeGroup
   - Units
-citation: Gao, Huan; He, Bin; Ramachandran, Sandhya; Yu, Kai (2025) Neural Pathways
+citation: Gao, Huan; Ramachandran, Sandhya; Yu, Kai; He, Bin (2025) Neural Pathways
   Modulation in the Anesthetized Rat Elicited by Trials of Transcranial Focused Ultrasound
-  Stimulation (Version 0.250712.1551) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001199/0.250712.1551
+  Stimulation (Version 0.250713.1101) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001199/0.250713.1101
 contributor:
 - affiliation: []
   email: huangao@andrew.cmu.edu
@@ -43,17 +43,17 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 - includeInCitation: true
-  name: He, Bin
-  roleName:
-  - dcite:Author
-  schemaKey: Person
-- includeInCitation: true
   name: Ramachandran, Sandhya
   roleName:
   - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Yu, Kai
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: He, Bin
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -78,7 +78,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-09-30T20:56:27.377399+00:00'
-datePublished: '2025-07-12T15:51:02.740523+00:00'
+datePublished: '2025-07-13T11:01:54.514128+00:00'
 description: In these recordings, we recorded neuronal activities from cortical-thalamocortical
   (CTC) pathway, including the somatosensory cortex (S1) and posteromedial complex
   (POm) of the thalamus responded to different Pulse Repetition Frequencies (PRFs
@@ -95,24 +95,24 @@ description: In these recordings, we recorded neuronal activities from cortical-
   S., Yu, K., & He, B. (2025). Transcranial Focused Ultrasound Modulates Feedforward
   and Feedback Cortico-Thalamo-Cortical Pathways by Selectively Activating Excitatory
   Neurons. The Journal of Neuroscience, 45(23), e2218242025. https://doi.org/10.1523/JNEUROSCI.2218-24.2025
-doi: 10.48324/dandi.001199/0.250712.1551
+doi: 10.48324/dandi.001199/0.250713.1101
 ethicsApproval: []
-id: DANDI:001199/0.250712.1551
+id: DANDI:001199/0.250713.1101
 identifier: DANDI:001199
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/001199/0.250712.1551/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/001199/0.250713.1101/assets.yaml
 name: Neural Pathways Modulation in the Anesthetized Rat Elicited by Trials of Transcranial
   Focused Ultrasound Stimulation
 publishedBy:
-  endDate: '2025-07-12T15:51:02.740523+00:00'
-  id: urn:uuid:3ca0b819-c5eb-4f10-a247-2677fa2d9572
+  endDate: '2025-07-13T11:01:54.514128+00:00'
+  id: urn:uuid:b303afcf-c236-4851-b606-a5956bbe46b1
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2025-07-12T15:51:02.740523+00:00'
+  startDate: '2025-07-13T11:01:54.514128+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:8ae59a54-2f83-49ce-8df0-003c3be1e2f8
+  - id: urn:uuid:fd23dbcf-913a-46af-b562-4b019a7eb658
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -121,6 +121,6 @@ relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-url: https://dandiarchive.org/dandiset/001199/0.250712.1551
-version: 0.250712.1551
+url: https://dandiarchive.org/dandiset/001199/0.250713.1101
+version: 0.250713.1101
 wasGeneratedBy: []
