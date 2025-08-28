@@ -72,13 +72,12 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- includeInCitation: false
-  name: NIH NS13106
+- name: RF1NS131069
   roleName:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-09-30T20:56:27.377399+00:00'
-datePublished: '2025-07-13T11:01:54.514128+00:00'
+datePublished: '2025-08-28T19:41:07.723684+00:00'
 description: In these recordings, we recorded neuronal activities from cortical-thalamocortical
   (CTC) pathway, including the somatosensory cortex (S1) and posteromedial complex
   (POm) of the thalamus responded to different Pulse Repetition Frequencies (PRFs
@@ -105,13 +104,13 @@ manifestLocation:
 name: Neural Pathways Modulation in the Anesthetized Rat Elicited by Trials of Transcranial
   Focused Ultrasound Stimulation
 publishedBy:
-  endDate: '2025-07-13T11:01:54.514128+00:00'
-  id: urn:uuid:b303afcf-c236-4851-b606-a5956bbe46b1
+  endDate: '2025-08-28T19:41:07.723684+00:00'
+  id: urn:uuid:7186f6ec-4458-4152-a5bd-952cfa2fd888
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2025-07-13T11:01:54.514128+00:00'
+  startDate: '2025-08-28T19:41:07.723684+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:fd23dbcf-913a-46af-b562-4b019a7eb658
+  - id: urn:uuid:5e68e593-77ad-4cdc-a632-881ec021e065
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
